@@ -112,9 +112,7 @@ public class HW1{
 			counter = counter.add( (currentCharInDec.multiply(baseMultiplier)) );
 			baseMultiplier = baseMultiplier.multiply(firstBase);
 		}
-		
-		System.out.println("Decimal: " + counter.toString());
-		
+
 		BigInteger baseTenValue = counter;
 		
 		int k = 0;
